@@ -12,7 +12,7 @@ from atproto import Client
 CHARACTERS = (
     string.ascii_letters
     + string.digits
-    + " .,!?;:'\"()[]{}+-=*/_@#$%^&|<>~`\\"
+    + " ."
 )
 
 
