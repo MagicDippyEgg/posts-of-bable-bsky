@@ -1,4 +1,4 @@
-name: Posts of Bable
+name: Posts of Babel
 
 on:
   schedule:
@@ -29,4 +29,4 @@ jobs:
         env:
           BLUESKY_HANDLE: ${{ secrets.BLUESKY_HANDLE }}
           BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
-        run: python bable.py
+        run: python babel.py

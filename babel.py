@@ -7,7 +7,7 @@ from PIL import Image
 from atproto import Client
 
 
-# The pool of characters Bable can use.
+# The pool of characters Babel can use.
 # Every character is selected independently.
 CHARACTERS = (
     string.ascii_letters
