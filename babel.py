@@ -8,12 +8,10 @@ from atproto import Client
 
 
 # The pool of characters Babel can use.
-# Every character is selected independently.
-CHARACTERS = (
-    string.ascii_letters
-    + string.digits
-    + " ."
-)
+# Accurate to modern digital adaptations of the Library of Babel:
+# 26 lowercase letters, space, comma, and period.
+# No weighting is applied, giving each character a 1/29 chance.
+CHARACTERS = string.ascii_lowercase + " ,."
 
 
 def generate_text(min_length=20, max_length=300):
