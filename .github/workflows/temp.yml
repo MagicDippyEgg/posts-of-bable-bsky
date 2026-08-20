@@ -12,8 +12,10 @@ jobs:
     steps:
       - name: Follow @ap.brid.gy
         env:
-          BSKY_USERNAME: ${{ secrets.BSKY_USERNAME }}
-          BSKY_PASSWORD: ${{ secrets.BSKY_PASSWORD }}
+          BSKY_USERNAME: $
+{{ secrets.BLUESKY_HANDLE }}
+          BSKY_PASSWORD: $
+{{ secrets.BLUESKY_APP_PASSWORD }}
         run: |
           python - <<'PY'
           import json
